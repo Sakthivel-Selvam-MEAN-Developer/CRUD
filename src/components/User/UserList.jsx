@@ -9,7 +9,7 @@ const UserList = ({ setUserName, setUserPosition, setIsEditted, setUserId }) => 
             <div className="title d-flex justify-content-between align-items-center">
                 <h2 className='p-3 m-0'>Users</h2>
                 <button type="button" className='btn btn-warning m-3' data-bs-toggle="modal" data-bs-target="#popup-adduser-form">
-                    <img src="/add-icon.svg" alt="add-icon" width={25} />
+                    <img src="./add-icon.svg" alt="add-icon" width={25} />
                 </button>
             </div>
             {users.length ? (

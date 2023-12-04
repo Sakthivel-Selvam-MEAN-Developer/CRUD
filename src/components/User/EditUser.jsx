@@ -24,10 +24,10 @@ const EditUser = ({ id, setUserName, setUserPosition, users, setIsEditted, setUs
     return (
         <div className="edit d-grid">
             <button className="btn btn" title='Edit User' data-bs-toggle="modal" data-bs-target="#popup-adduser-form" onClick={handleEditUser}>
-                <img src="/edit.svg" width={25} alt="edit-icon" />
+                <img src="./edit.svg" width={25} alt="edit-icon" />
             </button>
             <button className="btn" title='Delete User' onClick={handleDeleteUser}>
-                <img src="/delete.svg" width={25} alt="delete-icon" />
+                <img src="./delete.svg" width={25} alt="delete-icon" />
             </button>
         </div>
     )
